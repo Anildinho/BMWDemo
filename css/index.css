@@ -1,0 +1,98 @@
+@import url(//db.onlinewebfonts.com/c/375cc9ca16e62a2b040eea1237a4963a?family=BMW+Type+Global);
+
+body{
+    max-width: 1080px;
+    max-height: 1920px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    font-family: "BMW Type Global", "Arial";
+    text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6, p, button{
+    font-family: "BMW Type Global", "Arial";
+}
+
+.disabled{
+    color: darkgrey;
+}
+
+.iIndex{
+    max-width: 375px;
+    max-height: 375px;
+}
+
+.iIndex2{
+    max-width: 300px;
+    max-height: 300px;
+    padding: 25px 25px 25px 25px;
+}
+
+.pIndex{
+    font-size: 56px;
+}
+
+.pSelection{
+    font-size: 56px;
+    margin-top: 175px;
+    margin-bottom: 200px;
+}
+
+.spaceBetween{
+    margin-top: 300px;
+    margin-bottom: 750px;
+}
+
+.boxButton{
+    margin-bottom: 300px;
+}
+
+.carImg{
+    width: 110%;
+    position: relative;
+    margin: 0 -10% 0 -10%;
+    margin-left: 0;
+}
+
+.lineHeight{
+    line-height: 200%;
+}
+
+.btnConfig{
+    width: 100%;
+}
+
+.container{
+    max-width: 1080px;
+}
+
+.uppercase{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.number{
+    color: #e6e6e6;
+    font-family: "BMW Type Global", "Arial";
+    font-size: 150px;
+    margin-top: -30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
