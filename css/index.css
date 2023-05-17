@@ -3,8 +3,6 @@
 body{
     max-width: 1080px;
     max-height: 1920px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 h1{
@@ -16,57 +14,86 @@ h2, h3, h4, h5, h6, p, button{
     font-family: "BMW Type Global", "Arial";
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.h4Motor{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fuelOption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alignTextRight{
+    margin-top: -40px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.pBold{
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.pBold2{
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
 .disabled{
     color: darkgrey;
 }
 
-.iIndex{
-    max-width: 375px;
-    max-height: 375px;
+.btnSize{
+    width: 960px;
+    margin-left: -15px;
 }
 
-.iIndex2{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 25px 25px 25px 25px;
+.introText{
+    margin: 20px 5px 30px 5px;
 }
 
-.pIndex{
-    font-size: 56px;
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    box-shadow: 0 0 10px 1px lightgrey;
+    margin: -50px 0 0 370px;
 }
 
-.pSelection{
-    font-size: 56px;
-    margin-top: 175px;
-    margin-bottom: 200px;
+.checkmarkModalVariant{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 75px;
+    background-color: #eee;
+    box-shadow: 0 0 10px 1px lightgrey;
+    margin: -110px 0 0 815px;
 }
 
-.spaceBetween{
-    margin-top: 300px;
-    margin-bottom: 750px;
-}
-
-.boxButton{
-    margin-bottom: 300px;
-}
-
-.carImg{
-    width: 110%;
-    position: relative;
-    margin: 0 -10% 0 -10%;
-    margin-left: 0;
-}
-
-.lineHeight{
-    line-height: 200%;
-}
-
-.btnConfig{
-    width: 100%;
-}
-
-.container{
-    max-width: 1080px;
+.checkmarkModalVariant2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 55px;
+    background-color: #eee;
+    box-shadow: 0 0 10px 1px lightgrey;
+    margin: -130px 0 0 360px;
 }
 
 .uppercase{
@@ -74,25 +101,113 @@ h2, h3, h4, h5, h6, p, button{
     text-transform: uppercase;
 }
 
-.number{
-    color: #e6e6e6;
-    font-family: "BMW Type Global", "Arial";
-    font-size: 150px;
-    margin-top: -30px;
-    position: absolute;
-    z-index: -1;
-}
-
 .center{
     text-align: center;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+.colmd2{
+    max-width: 0;
 }
 
-a:hover{
-    color: black;
-    text-decoration: none;
+.border{
+    border: 1px solid #000000;
+}
+
+.spaceRowPacketsEditions{
+    margin-bottom: 30px;
+}
+
+.borderGrey{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 35px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+.h3Title{
+    font-weight: 900;
+}
+
+.imgSideMirror{
+    width: 600px;
+}
+
+.imgPacketEdition{
+    width: 110%;
+    margin-left: -15px;
+}
+
+.imgColor{
+    margin-top: 30px;
+}
+
+.content {
+    width: 400px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.content h3, .content p{
+    display: block;
+}
+
+.contentCollapse{
+    font-weight: 900;
+    margin-top: 25px;
+}
+.contentCollapse2{
+    font-weight: 900;
+}
+
+.contentCollapse3{
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.imgSize{
+    width: 20%;
+}
+
+.imgSizeExtraOptions{
+    width: 35%;
+}
+
+.spaceBetweenEditions{
+    margin-top: 10px;
+}
+
+.spaceBetweenEditions2{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.accordion {
+     background-color: #ffffff;
+     cursor: pointer;
+     border: none;
+     text-align: left;
+     outline: none;
+     font-size: 15px;
+     transition: 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.TextMeerInfo_ModelVariant{
+    width: 400px;
+}
+
+button:focus{
+    outline: none;
 }
